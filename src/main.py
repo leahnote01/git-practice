@@ -21,7 +21,7 @@ class Item(BaseModel):
 
 @app.get("/")
 def hello_world():
-    return "Hello World!!"
+    return "FastAPI World!!"
 
 
 @app.get("/get_test/{input_val}")
