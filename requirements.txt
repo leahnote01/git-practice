@@ -1,0 +1,5 @@
+fastapi[all]
+uvicorn
+httpx
+pytest
+flake8
